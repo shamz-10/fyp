@@ -1,4 +1,5 @@
 # fyp
+```mermaid
 graph TD
     %% Define visual styles
     classDef user fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
@@ -56,3 +57,4 @@ graph TD
     %% The Update Mechanism
     UpdateMod -->|7. Saves New Rule| Heuristics
     UpdateMod -->|8. Triggers Iteration| Orchestrator
+```
